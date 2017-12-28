@@ -1,0 +1,33 @@
+h1{
+  font-size: 50px;
+  text-align: center;
+}
+
+table , tr ,td{
+  margin: 0px auto;
+  height: 100px;
+  width: 300px;
+  background-color: #fffff0;
+  border:  2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 30px;
+}
+#reload ,#start{
+  background-color: lightgreen;
+  margin-top: 50px;
+  font-size: 25px;
+}
+#display{
+  text-align: center;
+  font-size: 25px;
+}
+
+.body{
+  text-align: center;
+  background-color: lightpink;
+  /*margin: 0px auto;*/
+}
+.gameBody{
+  text-align: center;
+}
