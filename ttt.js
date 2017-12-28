@@ -60,8 +60,7 @@ const updateTable = function(event){
   if(correntPlayer.hasWon()){
     game.state = 'won';
     displayWinner(correntPlayer.getName());
-  }
-  if(game.isDrow()){
+  }else if(game.isDrow()){
     game.state = 'Drow';
     displayDrow();
   }
