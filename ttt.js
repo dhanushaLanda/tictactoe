@@ -25,7 +25,14 @@ const displayWinner = function(playerName){
 }
 
 const updateClickedCell = function(cell,symbol){
+  changeColourBessedOnMove(cell,symbol);
   cell.innerText = symbol;
+}
+
+const changeColourBessedOnMove = function(cell,symbol){
+  if(symbol=='X')
+    return cell.style.color='blue';
+  return cell.style.color='red';
 }
 
 const handleMove = function (id,correntPlayer) {
@@ -39,6 +46,8 @@ const handleMove = function (id,correntPlayer) {
     game.changeCorrPlayer();
     displayPlayerTurn();
   }
+  console.log(cell.innerText);
+
 }
 
 const updateTable = function(event){

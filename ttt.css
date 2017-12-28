@@ -1,5 +1,6 @@
 h1{
-  font-size: 50px;
+  font-size: 40px;
+
   text-align: center;
 }
 
@@ -8,10 +9,12 @@ table , tr ,td{
   height: 100px;
   width: 300px;
   background-color: #fffff0;
-  border:  2px solid black;
+  border:  1px solid black;
   border-collapse: collapse;
   text-align: center;
-  font-size: 30px;
+  font-size: 60px;
+  font-weight:200;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 #reload ,#start{
   background-color: lightgreen;
@@ -26,7 +29,6 @@ table , tr ,td{
 .body{
   text-align: center;
   background-color: lightpink;
-  /*margin: 0px auto;*/
 }
 .gameBody{
   text-align: center;
